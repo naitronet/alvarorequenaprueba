@@ -1,0 +1,15 @@
+App\Form\Model\ClubDto:
+    # constraints:
+    #     - Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity:
+    #         fields: name
+    #         message: 'Ya existe otro club con el mismo nombre'
+    properties:
+        name:
+            - NotBlank:
+                message: 'El nombre del club no puede estar vacío'
+            - Length:
+                min: 3
+                max: 250
+                minMessage: 'El nombre del club debe tener al menos {{ limit }} caracteres'
+                maxMessage: 'El nombre del club debe tener menos de {{ limit }} caracteres'
+                allowEmptyString: false

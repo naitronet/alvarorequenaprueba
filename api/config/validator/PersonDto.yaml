@@ -1,0 +1,11 @@
+App\Form\Model\PersonDto:
+    properties:
+        name:
+            - NotBlank:
+                message: 'El nombre de la persona no puede estar vacío'
+            - Length:
+                min: 3
+                max: 250
+                minMessage: 'El nombre de la persona debe tener al menos {{ limit }} caracteres'
+                maxMessage: 'El nombre de la persona debe tener menos de {{ limit }} caracteres'
+                allowEmptyString: false

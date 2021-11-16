@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+body {
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f8fafc;
+}
+
+.active {
+	font-weight: bold;
+}
+
+.h-screen {
+	height: 100vh;
+}
+
+.list-group-item {
+	padding: 0.75rem 1.25rem;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.list-group-item .shield {
+	max-width: 40px;
+}

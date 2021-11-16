@@ -1,0 +1,20 @@
+App\Entity\Person:
+    attributes:
+        id:
+            groups: ['club']
+        clubId:
+            groups: ['club']
+        clubName:
+            groups: ['club']
+        clubShield:
+            groups: ['club']
+        name:
+            groups: ['club']
+        profile:
+            groups: ['club']
+        salary:
+            groups: ['club']
+        position:
+            groups: ['club']
+        birthDate:
+            groups: ['club']
